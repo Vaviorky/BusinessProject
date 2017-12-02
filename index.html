@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Strona główna || Teleporter</title>
+	<!-- All css Files Here -->
+	<!-- fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,500' rel='stylesheet' type='text/css'>
+	<!-- bootstrap css -->
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<!-- fontawesome css -->
+	<link rel="stylesheet" href="css/font-awesome.min.css" />
+	<!-- revolution banner css settings -->
+	<link rel="stylesheet" type="text/css" href="lib/rs-plugin/css/settings.css" media="screen" />
+	<!-- style css -->
+	<link rel="stylesheet" href="style.css">
+	<!-- mobilemenu css -->
+	<link rel="stylesheet" href="css/meanmenu.min.css" />
+	<!-- responsive css -->
+	<link rel="stylesheet" href="css/responsive.css" />
+	<!-- favicon -->
+	<link rel="shortcut icon" href="images/favicon.png" />
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+	<!-- Header-Section-Strat  -->
+	<header>
+		<div class="container">
+			<div class="header_top">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="header_top_left float-left">
+							<ul class="social_icon">
+								<li>
+									<a href="#">
+										<i class="fa fa-facebook"></i>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fa fa-twitter"></i>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fa fa-linkedin"></i>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fa fa-google-plus"></i>
+									</a>
+								</li>
+							</ul>
+							<ul class="social_others">
+								<li>
+									<a>
+										<i class="fa fa-phone"></i>555 444 333</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fa fa-envelope-o"></i>info@teleporto.com</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="header_top_right text-right">
+							<ul>
+								<li>
+									<a href="#">Konto</a>
+								</li>
+								<li>
+									<a href="#">Lista życzeń</a>
+								</li>
+								<li>
+									<a href="#">Rejestracja / Logowanie</a>
+								</li>
+								<li class="searchbox">
+									<input type="search" placeholder="Szukaj......" name="search" class="searchbox-input" onkeyup="buttonUp();" required>
+									<input type="submit" class="searchbox-submit" value="">
+									<span class="searchbox-icon">
+										<i class="fa fa-search"></i>
+									</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row mega_relative">
+				<div class="col-xs-12 col-sm-2">
+					<div class="logo head_lo">
+						<a href="index.html">
+							<img src="images/logo.png" alt="Logo" />
+						</a>
+					</div>
+				</div>
+				<div class="col-sm-10">
+					<div class="mainmenu float-right">
+						<nav>
+							<ul>
+								<li>
+									<a href="index.html">HOME</a>
+								</li>
+								<li>
+									<a href="#">NOWOŚCI</i>
+									</a>
+								</li>
+								<li>
+									<a href="#">POLECANE</a>
+								</li>
+								<li>
+									<a href="#">BLOG</a>
+								</li>
+								<li>
+									<a href="#">MARKA</a>
+								</li>
+								<li>
+									<a href="#">OFERTY</a>
+								</li>
+								<li>
+									<a href="contact.html">KOTAKT</a>
+								</li>
+								<li class="shop_icon">
+									<a href="checkout.html">
+										<img src="images/menu_icon_img.png" alt="" />
+									</a>
+									<span>10</span>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- mobile-menu-area start -->
+	<div class="mobile-menu-area">
+		<div class="container">
+			<div class="mobile-menu">
+				<nav id="dropdown">
+					<ul>
+						<li>
+							<a href="index.html">HOME</a>
+						</li>
+						<li>
+							<a href="#">NEW</a>
+						</li>
+						<li>
+							<a href="#">FEATURED</a>
+						</li>
+						<li>
+							<a href="#">BLOG</a>
+						</li>
+						<li>
+							<a href="#">BRAND</a>
+						</li>
+						<li>
+							<a href="#">OFFERS</a>
+						</li>
+						<li>
+							<a href="#">CONTACT</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+	<!-- mobile-menu-area end -->
+	<!-- Header-Section-End  -->
+	<!-- Slider-Section-Strat  -->
+	<div class="slider_area">
+		<div class="fullwidthbanner">
+			<ul>
+				<!-- SLIDE-1  -->
+				<li data-transition="zoomout" data-slotamount="7" data-masterspeed="300" data-saveperformance="off">
+					<!-- MAIN IMAGE -->
+					<img src="images/slider/slider_bg-2.jpg" alt="mainbanner-31" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+					<!-- LAYERS -->
+					<!-- LAYER NR. 1 -->
+					<div class="tp-caption banner1 tp-fade tp-resizeme" data-x="910" data-y="20" data-speed="300" data-start="500" data-easing="Power3.easeInOut"
+					 data-splitin="none" data-splitout="none" data-elementdelay="0" data-endelementdelay="0" data-end="8700" data-endspeed="300"
+					 style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap;">
+						<img src="images/slider/slide-2.png" alt="">
+					</div>
+
+					<!-- LAYER NR. 2 -->
+					<div class="tp-caption banner12 tp-fade tp-resizeme" data-x="385" data-y="145" data-speed="300" data-start="800" data-easing="Power3.easeInOut"
+					 data-splitin="none" data-splitout="none" data-elementdelay="0" data-endelementdelay="0" data-end="8700" data-endspeed="300"
+					 style="z-index: 7;font-size:72px; font-family:nexa_blackregular;font-weight:700;color:#3a4b60;max-width: auto; max-height: auto; white-space: nowrap;">
+						TELEPORTER GOLD
+					</div>
+
+					<!-- LAYER NR. 3 -->
+					<div class="tp-caption banner13 tp-fade tp-resizeme" data-x="385" data-y="190" data-speed="300" data-start="1100" data-easing="Power3.easeInOut"
+					 data-splitin="none" data-splitout="none" data-elementdelay="0" data-endelementdelay="0" data-end="8700" data-endspeed="300"
+					 style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;font-size:24px;line-height:26px;font-family:Roboto;font-weight:100; color:#ffffff;letter-spacing:8px;">
+						BĄDŹ TAM GDZIE CHCESZ
+					</div>
+
+					<!-- LAYER NR. 4.1 -->
+					<div class="tp-caption banner21 tp-fade tp-resizeme" data-x="385" data-y="273" data-speed="300" data-start="800" data-easing="Power3.easeInOut"
+					 data-splitin="none" data-splitout="none" data-elementdelay="0" data-endelementdelay="0" data-end="8700" data-endspeed="300"
+					 style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;font-size:20px;line-height:2;font-family:nexa_bookregular;color:#ffffff;">
+						EDYCJA LIMITOWANA
+					</div>
+
+					<!-- LAYER NR. 4.2 -->
+					<div class="tp-caption banner21 tp-fade tp-resizeme" data-x="385" data-y="309" data-speed="300" data-start="1000" data-easing="Power3.easeInOut"
+					 data-splitin="none" data-splitout="none" data-elementdelay="0" data-endelementdelay="0" data-end="8700" data-endspeed="300"
+					 style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;font-size:20px;line-height:2;font-family:nexa_bookregular;color:#ffffff;">
+						TELEPORTER Z FUNKCJĄ ZEGARKA
+					</div>
+
+					<!-- LAYER NR. 4.3 -->
+					<div class="tp-caption banner21 tp-fade tp-resizeme" data-x="385" data-y="345" data-speed="300" data-start="1100" data-easing="Power3.easeInOut"
+					 data-splitin="none" data-splitout="none" data-elementdelay="0" data-endelementdelay="0" data-end="8700" data-endspeed="300"
+					 style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;font-size:20px;line-height:2;font-family:nexa_bookregular;color:#ffffff;">
+						24-KARATOWE ZŁOTO
+					</div>
+
+					<!-- LAYER NR. 4.4 -->
+					<div class="tp-caption banner21 tp-fade tp-resizeme" data-x="385" data-y="381" data-speed="300" data-start="1100" data-easing="Power3.easeInOut"
+					 data-splitin="none" data-splitout="none" data-elementdelay="0" data-endelementdelay="0" data-end="8700" data-endspeed="300"
+					 style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;font-size:20px;line-height:2;font-family:nexa_bookregular;color:#ffffff;">
+						WODOODPORNY
+					</div>
+
+					<!-- LAYER NR. 4.5 -->
+					<div class="tp-caption banner22 tp-fade tp-resizeme" data-x="385" data-y="418" data-speed="300" data-start="1400" data-easing="Power3.easeInOut"
+					 data-splitin="none" data-splitout="none" data-elementdelay="0" data-endelementdelay="0" data-end="8700" data-endspeed="300"
+					 style="z-index: 5; max-width: auto; max-height: auto; white-space: nowrap;font-size:20px;line-height:2;font-family:nexa_bookregular;color:#ffffff;">
+						NIEZWYKLE PORĘCZNY
+					</div>
+
+					<!-- LAYER NR. 4.6 -->
+					<div class="tp-caption banner23 tp-fade tp-resizeme" data-x="385" data-y="450" data-speed="300" data-start="1700" data-easing="Power3.easeInOut"
+					 data-splitin="none" data-splitout="none" data-elementdelay="0" data-endelementdelay="0" data-end="8700" data-endspeed="300"
+					 style="z-index: 6; max-width: auto; max-height: auto; white-space: nowrap;font-size:20px;line-height:2;font-family:nexa_bookregular;color:#ffffff;">
+						CENA: $ 1899.99
+					</div>
+
+					<!-- LAYER NR. 4.7 -->
+					<div class="tp-caption banner2 tp-fade tp-resizeme" data-x="385" data-y="530" data-speed="300" data-start="1800" data-easing="Power3.easeInOut"
+					 data-splitin="none" data-splitout="none" data-elementdelay="0" data-endelementdelay="0" data-end="8700" data-endspeed="300">
+						<a class="slide_btn" href="#" style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap;font-size:16px; color:#fff;border: 2px solid #ffffff;line-height:2;padding: 10px 30px;">
+							KUP TERAZ</a>
+					</div>
+				</li>
+				<!-- SLIDE-2 -->
+				<li data-transition="zoomout" data-slotamount="7" data-masterspeed="300" data-title="Slide2" data-saveperformance="off">
+					<!-- MAIN IMAGE -->
+					<img src="images/slider/slider_bg-1.jpg" alt="mainbanner-21" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+					<!-- LAYERS -->
+					<!-- LAYER NR. 1 -->
+					<div class="tp-caption tp-fade" data-x="910" data-y="20" data-speed="300" data-start="800" data-easing="Power3.easeInOut"
+					 data-elementdelay="0" data-endelementdelay="0" data-end="8700" data-endspeed="300" style="z-index: 3;">
+						<img src="images/slider/slide-1.png" alt="">
+					</div>
+
+					<!-- LAYER NR. 2 -->
+					<div class="tp-caption banner12 tp-fade tp-resizeme" data-x="385" data-y="145" data-speed="300" data-start="800" data-easing="Power3.easeInOut"
+					 data-splitin="none" data-splitout="none" data-elementdelay="0" data-endelementdelay="0" data-end="8700" data-endspeed="300"
+					 style="z-index: 7;font-size:72px; font-family:nexa_blackregular;font-weight:700;color:#3a4b60;max-width: auto; max-height: auto; white-space: nowrap;">TELEPORTER XX3
+					</div>
+
+					<!-- LAYER NR. 3 -->
+					<div class="tp-caption banner13 tp-fade tp-resizeme" data-x="385" data-y="190" data-speed="300" data-start="1100" data-easing="Power3.easeInOut"
+					 data-splitin="none" data-splitout="none" data-elementdelay="0" data-endelementdelay="0" data-end="8700" data-endspeed="300"
+					 style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;font-size:24px;line-height:26px;font-family:Roboto;font-weight:100; color:#ffffff;letter-spacing:8px;">BĄDŹ TAM GDZIE CHCESZ
+					</div>
+
+					<!-- LAYER NR. 4.1 -->
+					<div class="tp-caption banner21 tp-fade tp-resizeme" data-x="385" data-y="273" data-speed="300" data-start="800" data-easing="Power3.easeInOut"
+					 data-splitin="none" data-splitout="none" data-elementdelay="0" data-endelementdelay="0" data-end="8700" data-endspeed="300"
+					 style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;font-size:20px;line-height:2;font-family:nexa_bookregular;color:#ffffff;">
+						TELEPORTER Z FUKCJĄ ZEGARKA
+					</div>
+
+					<!-- LAYER NR. 4.2 -->
+					<div class="tp-caption banner21 tp-fade tp-resizeme" data-x="385" data-y="309" data-speed="300" data-start="1000" data-easing="Power3.easeInOut"
+					 data-splitin="none" data-splitout="none" data-elementdelay="0" data-endelementdelay="0" data-end="8700" data-endspeed="300"
+					 style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;font-size:20px;line-height:2;font-family:nexa_bookregular;color:#ffffff;">
+						KOLOR: SZARO-CZARNY
+					</div>
+
+					<!-- LAYER NR. 4.3 -->
+					<div class="tp-caption banner21 tp-fade tp-resizeme" data-x="385" data-y="345" data-speed="300" data-start="1100" data-easing="Power3.easeInOut"
+					 data-splitin="none" data-splitout="none" data-elementdelay="0" data-endelementdelay="0" data-end="8700" data-endspeed="300"
+					 style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;font-size:20px;line-height:2;font-family:nexa_bookregular;color:#ffffff;">
+						WODOODPORNY
+					</div>
+
+					<!-- LAYER NR. 4.4 -->
+					<div class="tp-caption banner21 tp-fade tp-resizeme" data-x="385" data-y="381" data-speed="300" data-start="1100" data-easing="Power3.easeInOut"
+					 data-splitin="none" data-splitout="none" data-elementdelay="0" data-endelementdelay="0" data-end="8700" data-endspeed="300"
+					 style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;font-size:20px;line-height:2;font-family:nexa_bookregular;color:#ffffff;">
+						NIEZWYKLE PORĘCZNY
+					</div>
+
+					<!-- LAYER NR. 4.5 -->
+					<div class="tp-caption banner22 tp-fade tp-resizeme" data-x="385" data-y="418" data-speed="300" data-start="1400" data-easing="Power3.easeInOut"
+					 data-splitin="none" data-splitout="none" data-elementdelay="0" data-endelementdelay="0" data-end="8700" data-endspeed="300"
+					 style="z-index: 5; max-width: auto; max-height: auto; white-space: nowrap;font-size:20px;line-height:2;font-family:nexa_bookregular;color:#ffffff;">
+						WYTRZYMAŁY
+					</div>
+
+					<!-- LAYER NR. 4.6 -->
+					<div class="tp-caption banner23 tp-fade tp-resizeme" data-x="385" data-y="450" data-speed="300" data-start="1700" data-easing="Power3.easeInOut"
+					 data-splitin="none" data-splitout="none" data-elementdelay="0" data-endelementdelay="0" data-end="8700" data-endspeed="300"
+					 style="z-index: 6; max-width: auto; max-height: auto; white-space: nowrap;font-size:20px;line-height:2;font-family:nexa_bookregular;color:#ffffff;">CENA: $ 999.99
+					</div>
+
+					<!-- LAYER NR. 4.7 -->
+					<div class="tp-caption banner2 tp-fade tp-resizeme" data-x="385" data-y="530" data-speed="1800" data-start="500" data-easing="Power3.easeInOut"
+					 data-splitin="none" data-splitout="none" data-elementdelay="0" data-endelementdelay="0" data-end="8700" data-endspeed="300">
+						<a class="slide_btn" href="#" style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap;font-size:16px; color:#fff;border: 2px solid #ffffff;line-height:2;padding: 10px 30px;">KUP TERAZ</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- Slider-Section-End  -->
+	<!-- Product-Section-Strat  -->
+	<section class="product_area section-padding">
+		<div class="padding_right main_single_product">
+			<div class="single_product">
+				<div class="product_img">
+					<img src="images/product/tre-shirt-1.png" alt="DARK BLUE IMAGE" />
+				</div>
+				<div class="product_text dark_product">
+					<h1>DARK BLUE</h1>
+				</div>
+			</div>
+		</div>
+		<div class="padding_left main_single_product">
+			<div class="single_product single_product_two">
+				<div class="product_img">
+					<img src="images/product/tre-shirt-1.png" alt="DARK BLUE IMAGE" />
+				</div>
+				<div class="product_text_two product_text">
+					<h1>MEN'S TEE</h1>
+					<p>100% COMBED COTTON</p>
+					<p>COLOR: DARK BLUE</p>
+					<p>ROUND NECK & HALF SLEEVES</p>
+					<p>Classic fit, slightly long</p>
+					<p>GSM: 180</p>
+					<p>PRICE: $ 21.99</p>
+					<a class="shop_now_btn" href="#">SHOP NOW</a>
+				</div>
+			</div>
+		</div>
+		<div class="padding_right main_single_product section-padding-top">
+			<div class="single_product single_product_two">
+				<div class="product_img tre_shirt_2">
+					<img src="images/product/tre-shirt-2.png" alt="DARK BLUE IMAGE" />
+				</div>
+				<div class="product_text_two tre_shirt_2_text product_text">
+					<h1>MEN'S TEE</h1>
+					<p>100% COMBED COTTON</p>
+					<p>COLOR: WHITE & BLACK</p>
+					<p>ROUND NECK & HALF SLEEVES</p>
+					<p>Classic fit, slightly long</p>
+					<p>GSM: 180</p>
+					<p>PRICE: $ 21.99</p>
+					<a class="shop_now_btn" href="#">SHOP NOW</a>
+				</div>
+			</div>
+		</div>
+		<div class="padding_left main_single_product section-padding-top">
+			<div class="single_product">
+				<div class="product_img tre_shirt_2">
+					<img src="images/product/tre-shirt-2.png" alt="DARK BLUE IMAGE" />
+				</div>
+				<div class="product_text dark_product">
+					<h1>WHITE & BLACK</h1>
+				</div>
+			</div>
+		</div>
+		<div class="padding_right main_single_product section-padding-top">
+			<div class="single_product">
+				<div class="product_img tre_shirt_3">
+					<img src="images/product/tre-shirt-3.png" alt="DARK BLUE IMAGE" />
+				</div>
+				<div class="product_text dark_product">
+					<h1>GRAY WITH BLACK</h1>
+				</div>
+			</div>
+		</div>
+		<div class="padding_left main_single_product section-padding-top">
+			<div class="single_product single_product_two">
+				<div class="product_img tre_shirt_3">
+					<img src="images/product/tre-shirt-3.png" alt="DARK BLUE IMAGE" />
+				</div>
+				<div class="product_text_two product_text">
+					<h1>LADIES TEE</h1>
+					<p>100% COMBED COTTON</p>
+					<p>COLOR: GRAY WITH BLACK</p>
+					<p>ROUND NECK & HALF SLEEVES</p>
+					<p>Classic fit, slightly long</p>
+					<p>GSM: 180</p>
+					<p>PRICE: $ 31.99</p>
+					<a class="shop_now_btn" href="#">SHOP NOW</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Product-Section-End  -->
+	<!-- Choose-Section-Strat  -->
+	<section class="choose_area section-padding">
+		<div class="container">
+			<div class="choose_area_text text-center">
+				<div class="choose_title">
+					<h2>DLACZEGO AKURAT MY?</h2>
+				</div>
+				<div class="choose_text">
+					<i class="flaticon-lightbulbs"></i>
+					<h5>
+						<a href="#">UNIQUE DESIGN</a>
+					</h5>
+					<div class="text_p">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore ab odio quas ipsam sed quo minima</p>
+					</div>
+				</div>
+				<div class="choose_text choose_active">
+					<i class="flaticon-sticker3"></i>
+					<h5>
+						<a href="#">best quality</a>
+					</h5>
+					<div class="text_p">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore ab odio quas ipsam sed quo minima</p>
+					</div>
+				</div>
+				<div class="choose_text">
+					<i class="flaticon-tshirt17"></i>
+					<h5>
+						<a href="#">COMFORTABLE TEES</a>
+					</h5>
+					<div class="text_p">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore ab odio quas ipsam sed quo minima</p>
+					</div>
+				</div>
+			</div>
+			<div class="choose_btn text-center">
+				<a class="shop_now_btn" href="#">SHOP NOW</a>
+			</div>
+		</div>
+	</section>
+	<!-- Choose-Section-End  -->
+	<!-- Review-Section-Strat  -->
+	<section class="review_area section-padding">
+		<div class="container">
+			<div class="review_text text-center">
+				<div class="review_title">
+					<h2>CUSTOMER REVIEW</h2>
+				</div>
+				<div id="review_carousel_1" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators slider_indicators">
+						<li data-target="#review_carousel_1" data-slide-to="0" class="active"></li>
+						<li data-target="#review_carousel_1" data-slide-to="1"></li>
+						<li data-target="#review_carousel_1" data-slide-to="2"></li>
+					</ol>
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<div class="single_review">
+								<img src="images/review/person1.jpg" alt="" />
+								<h5>
+									<a href="#">Michelle Wilson</a>
+								</h5>
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's</p>
+								<div class="review_line"></div>
+								<div class="review_icon">
+									<i>“</i>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="single_review">
+								<img src="images/review/person2.jpg" alt="" />
+								<h5>
+									<a href="#">Michelle Wilson</a>
+								</h5>
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's</p>
+								<div class="review_line"></div>
+								<div class="review_icon">
+									<i>“</i>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="single_review">
+								<img src="images/review/person3.jpg" alt="" />
+								<h5>
+									<a href="#">Michelle Wilson</a>
+								</h5>
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's</p>
+								<div class="review_line"></div>
+								<div class="review_icon">
+									<i>“</i>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Review-Section-End  -->
+	<!-- Compare-Section-Strat  -->
+	<section class="compare_area section-padding">
+		<div class="container">
+			<div class="review_text text-center">
+				<div class="compare_title">
+					<h2>COMPARE OUR PRODUCTS</h2>
+					<p>CPMPARE OUR PRODUCTS AND CHOOSE THE BEST ONE FOR YOURS</p>
+				</div>
+				<div class="compare_menu col-text-center">
+					<ul class="nav nav-tabs items_ul" role="tablist" id="myTab">
+						<li role="presentation">
+							<a href="#features" aria-controls="features" role="tab" data-toggle="tab">Features</a>
+						</li>
+						<li role="presentation" class="active">
+							<a href="#tech" aria-controls="tech" role="tab" data-toggle="tab">Tech Spech</a>
+						</li>
+						<li role="presentation">
+							<a href="#guarantee" id="com_3" aria-controls="guarantee" role="tab" data-toggle="tab">guarantee</a>
+						</li>
+					</ul>
+				</div>
+				<div class="tab-content items_tab">
+					<div role="tabpanel" class="tab-pane fade in items_pane" id="features">
+						<div class="features_box">
+							<div class="single_features border_bot">
+								<i class="flaticon-lightbulbs"></i>
+								<div class="features_text">
+									<h5>
+										<a href="#">Features 1</a>
+									</h5>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore ab odio quas ipsam sed quo minima Lorem ipsum
+										dolor sit amet, consectetur adipisicing elit. Tempore ab odio quas ipsam sed quo minima</p>
+								</div>
+							</div>
+							<div class="single_features border_bot border_left">
+								<i class="fa fa-diamond"></i>
+								<div class="features_text">
+									<h5>
+										<a href="#">Features 2</a>
+									</h5>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore ab odio quas ipsam sed quo minima Lorem ipsum
+										dolor sit amet, consectetur adipisicing elit. Tempore ab odio quas ipsam sed quo minima</p>
+								</div>
+							</div>
+							<div class="single_features">
+								<i class="fa fa-cogs"></i>
+								<div class="features_text">
+									<h5>
+										<a href="#">Features 3</a>
+									</h5>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore ab odio quas ipsam sed quo minima Lorem ipsum
+										dolor sit amet, consectetur adipisicing elit. Tempore ab odio quas ipsam sed quo minima</p>
+								</div>
+							</div>
+							<div class="single_features border_left">
+								<i class="flaticon-tshirt17"></i>
+								<div class="features_text">
+									<h5>
+										<a href="#">Features 4</a>
+									</h5>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore ab odio quas ipsam sed quo minima Lorem ipsum
+										dolor sit amet, consectetur adipisicing elit. Tempore ab odio quas ipsam sed quo minima</p>
+								</div>
+							</div>
+						</div>
+						<div class="disclaimer text-left section-padding-top">
+							<h5>disclaimer</h5>
+							<i class="fa fa-dot-circle-o"></i>
+							<p>1.00 $ trial offer applies to the first month of service only.</p>
+							<i class="fa fa-dot-circle-o"></i>
+							<p>Standard 14-day refund policy does not apply to any configurable options provided with Reseller packages or to</p>
+							<p class="promo_p">promotional purchases of Reseller packages. Sales of $1.00 trial offer and add-ons are final and non-refundable.</p>
+							<i class="fa fa-dot-circle-o"></i>
+							<p>$1.00 trial offer is limited to one per household, business or client.</p>
+						</div>
+					</div>
+					<div role="tabpanel" class="tab-pane fade in active items_pane" id="tech">
+						<div class="table-responsive">
+							<table id="home_table">
+								<tr>
+									<th>package features</th>
+									<th>COMPARE 1</th>
+									<th>COMPARE 2</th>
+									<th>COMPARE 3</th>
+								</tr>
+								<tr>
+									<td>material</td>
+									<td>100% Combed Cotton</td>
+									<td>86% Organic Cotton</td>
+									<td>100% Polyster</td>
+								</tr>
+								<tr>
+									<td>GSM</td>
+									<td>GSM 180</td>
+									<td>GSM 160</td>
+									<td>GSM 180</td>
+								</tr>
+								<tr>
+									<td>COLOR</td>
+									<td>Any Color</td>
+									<td>Any Color</td>
+									<td>Any Color</td>
+								</tr>
+								<tr>
+									<td>FABRIC</td>
+									<td>1000 m. Per Color</td>
+									<td>800 m. Per Color</td>
+									<td>900 m. Per Color</td>
+								</tr>
+								<tr>
+									<td>SIZE</td>
+									<td>Small</td>
+									<td>Medium</td>
+									<td>Large</td>
+								</tr>
+								<tr>
+									<td>NECK</td>
+									<td>Round Neck</td>
+									<td>Kuff Neck</td>
+									<td>Round Fit</td>
+								</tr>
+								<tr>
+									<td>SLEEves</td>
+									<td>Long Sleeves</td>
+									<td>Half Sleeves</td>
+									<td>Semi Half Sleeves</td>
+								</tr>
+							</table>
+						</div>
+						<div class="disclaimer text-left section-padding-top">
+							<h5>disclaimer</h5>
+							<i class="fa fa-dot-circle-o"></i>
+							<p>1.00 $ trial offer applies to the first month of service only.</p>
+							<i class="fa fa-dot-circle-o"></i>
+							<p>Standard 14-day refund policy does not apply to any configurable options provided with Reseller packages or to</p>
+							<p class="promo_p">promotional purchases of Reseller packages. Sales of $1.00 trial offer and add-ons are final and non-refundable.</p>
+							<i class="fa fa-dot-circle-o"></i>
+							<p>$1.00 trial offer is limited to one per household, business or client.</p>
+						</div>
+					</div>
+					<div role="tabpanel" class="tab-pane fade in items_pane" id="guarantee">
+						<div class="guarantee_box">
+							<div class="guarantee_features">
+								<img src="images/guarantee-icon.png" alt="" />
+								<div class="features_text guarantee_text">
+									<h5>
+										<a href="#">GUARANTEE OF QUALITY</a>
+									</h5>
+									<p>All of our web hosting services are backed up by our pioneering Hosting Guarantee. This guarantee is a mark of the
+										high quality that you expect of Namecheap and underlines our commitment to providing excellence in our hosting
+										division. Our Hosting Guarantee also explains that we treat each individual service you have with Namecheap as
+										an individual service. You can subscribe, modify and cancel each and any service that you have with us at any time
+										and without penalty.</p>
+								</div>
+							</div>
+						</div>
+						<div class="disclaimer text-left section-padding-top">
+							<h5>disclaimer</h5>
+							<i class="fa fa-dot-circle-o"></i>
+							<p>1.00 $ trial offer applies to the first month of service only.</p>
+							<i class="fa fa-dot-circle-o"></i>
+							<p>Standard 14-day refund policy does not apply to any configurable options provided with Reseller packages or to</p>
+							<p class="promo_p">promotional purchases of Reseller packages. Sales of $1.00 trial offer and add-ons are final and non-refundable.</p>
+							<i class="fa fa-dot-circle-o"></i>
+							<p>$1.00 trial offer is limited to one per household, business or client.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Compare-Ection-End  -->
+	<!-- Footer-Section-Start -->
+	<footer>
+		<div class="footer_top footer-padding">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 col-sm-6">
+						<div class="newsletter">
+							<h4>Zapisz się na newsletter</h4>
+						</div>
+					</div>
+					<div class="col-sm-12 col-sm-6">
+						<div class="newsletter text-right">
+							<input class="news_input" type="text" value="" placeholder="Adres e-mail" />
+							<input class="subscribe_btn" type="button" value="wyślij" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer_middel footer-padding">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6 col-md-3">
+						<div class="footer_link address">
+							<p>Teleportero</p>
+							<ul>
+								<li>
+									<span>Adres: </span>Wiejska 43, Białystok, Polska</li>
+								<li>
+									<span>Telefon: </span>555 444 333</li>
+								<li>
+									<span>E-mail: </span>info@teleporto.com</li>
+							</ul>
+						</div>
+						<div class="footer_icon">
+							<ul>
+								<li>
+									<a href="#">
+										<i class="fa fa-facebook"></i>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fa fa-twitter"></i>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fa fa-linkedin"></i>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fa fa-google-plus"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3">
+						<div class="footer_link">
+							<p>konto</p>
+							<ul>
+								<li>
+									<a href="#">Moje konto</a>
+								</li>
+								<li>
+									<a href="cart.html">Koszyk</a>
+								</li>
+								<li>
+									<a href="#">Lista życzeń</a>
+								</li>
+								<li>
+									<a href="#">Pokwitowania</a>
+								</li>
+								<li>
+									<a href="#">Informacje o koncie</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3">
+						<div class="footer_link res_mar">
+							<p>wsparcie klienta</p>
+							<ul>
+								<li>
+									<a href="#">Support 24/7</a>
+								</li>
+								<li>
+									<a href="#">Reklamacje</a>
+								</li>
+								<li>
+									<a href="#">Poradnik zakupów</a>
+								</li>
+								<li>
+									<a href="#">O produktach</a>
+								</li>
+								<li>
+									<a href="#">Kariera</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3">
+						<div class="footer_link res_mar">
+							<p>informacja</p>
+							<ul>
+								<li>
+									<a href="#">O sklepie</a>
+								</li>
+								<li>
+									<a href="#">Bezpieczne zakupy</a>
+								</li>
+								<li>
+									<a href="#">O dostawie</a>
+								</li>
+								<li>
+									<a href="#">Mapa strony</a>
+								</li>
+								<li>
+									<a href="#">Polityka prywatnościy</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer_bottom footer-padding">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6 col-xs-12">
+						<div class="copyright">
+							<p>Copyright 2017 Wszelkie prawa zastrzeżone</p>
+						</div>
+					</div>
+					<div class="col-sm-6 col-xs-12">
+						<div class="copyright_icon text-right">
+							<a href="#">
+								<img src="images/footer/paypal-1.png" alt="" />
+							</a>
+							<a href="#">
+								<img src="images/footer/paypal-2.png" alt="" />
+							</a>
+							<a href="#">
+								<img src="images/footer/paypal-3.png" alt="" />
+							</a>
+							<a href="#">
+								<img src="images/footer/paypal-4.png" alt="" />
+							</a>
+							<a href="#">
+								<img src="images/footer/paypal-5.png" alt="" />
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- Footer-Section-End -->
+	<!-- All js Files Here -->
+	<!-- jquery-1.11.3 -->
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<!-- bootstrap js -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- revolution js -->
+	<script type="text/javascript" src="lib/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+	<script type="text/javascript" src="lib/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+	<script src="lib/rs-plugin/rs.home.js"></script>
+	<!-- search-box js -->
+	<script src="js/search-box.js"></script>
+	<!-- scrollUp js -->
+	<script src="js/jquery.scrollUp.js"></script>
+	<!-- mobilemenu js -->
+	<script src="js/jquery.meanmenu.js"></script>
+	<!-- main js -->
+	<script src="js/main.js"></script>
+</body>
+
+</html>
